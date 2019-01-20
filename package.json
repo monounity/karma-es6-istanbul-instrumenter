@@ -1,0 +1,45 @@
+{
+  "name": "karma-es6-istanbul-instrumenter",
+  "version": "1.0.0",
+  "description": "Karma preprocessor for instrumenting native ES6 code for coverage",
+  "files": [
+    "src/**"
+  ],
+  "main": "src/index.js",
+  "scripts": {
+    "setup": "npm link && npm link karma-es6-istanbul-instrumenter",
+    "lint": "eslint ./src",
+    "test": "karma start test/karma.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monounity/karma-es6-instanbul-instrumenter.git"
+  },
+  "keywords": [
+    "istanbul",
+    "karma",
+    "coverage",
+    "ES6",
+    "ES2015"
+  ],
+  "author": "Erik Barke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/monounity/karma-es6-instanbul-instrumenter/issues"
+  },
+  "homepage": "https://github.com/monounity/karma-es6-instanbul-instrumenter",
+  "dependencies": {
+    "istanbul-lib-instrument": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.1",
+    "jasmine-core": "^3.3.0",
+    "karma": "^3.1.4",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-coverage-istanbul-reporter": "^2.0.4",
+    "karma-jasmine": "^2.0.1"
+  },
+  "peerDependencies": {
+    "karma": "3"
+  }
+}
