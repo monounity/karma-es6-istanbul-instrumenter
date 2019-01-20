@@ -15,7 +15,6 @@ const createPreprocessor = (logger) => {
                 done(error.message);
             }
             else {
-                log.info("weeee");
                 done(instrumentedSource);
             }
         });
