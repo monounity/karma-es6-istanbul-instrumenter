@@ -1,6 +1,6 @@
 {
   "name": "karma-es6-istanbul-instrumenter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Karma preprocessor for instrumenting native ES6 code for coverage",
   "files": [
     "src/**"
